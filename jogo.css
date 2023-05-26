@@ -1,0 +1,179 @@
+img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: none;
+}
+body{
+    width: 90vw;
+    height: 95vh;
+    background-image: url(img/vila-da-folha.webp);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+main{
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+section{
+    background-color: rgba(255, 166, 0, 0.308);
+    height: 430px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#btn_play{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: orange;
+    width: 200px;
+    height: 60px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    justify-content: center;
+    cursor: pointer;
+}
+#btn_play:hover{
+    transition: 1s;
+    padding: 5px;
+    border: 2px solid white;
+    color: white;
+}
+.player{
+    height: 35px;
+    background-color: orange;
+    color: white;
+    border: 2px solid orangered;
+    
+}
+.button_go{
+    width: 170.34px;
+    height: 40.63px;
+    background-color: orange;
+    color: white;
+    border: 2px solid orangered;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+#secundaria{
+    display: none;
+    background-color: transparent;
+    margin-top: -50px;
+    background-color: antiquewhite;
+    height: 80vh;
+    padding: 20px;
+}
+#terceiro{
+    display: none;
+    background-color: transparent;
+    margin-top: -50px;
+    background-color: antiquewhite;
+    height: 80vh;
+    padding: 30px;
+}
+#tela_poder , #tela_poder1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    display: block;
+    margin: auto;
+    background-image: url(img/logo-nova.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+#tela_3 , #tela_31{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elementos{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+   
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#menu_poder , #menu_poder1{
+    width: 350px;
+    margin: auto;
+    margin-top: 150px;
+    
+}
+#fogo , #fogo2{
+    background-image: url(img/elemento-fogo-novo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+#agua , #agua2{
+    background-image: url(img/elemento-agua-novo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#terra , #terra2{
+    background-image: url(img/elemento-terra-novo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#relampago , #relampago2{
+    background-image: url(img/elemnto-relampago-novo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#vento , #vento2{
+    background-image: url(img/elemnto-vento-novo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#btn_proximo , #btn_proximo2{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    border: 2px solid orangered;
+}
+.addfogo{
+    background-image: url(img/elemento-fogo-novo.png) !important;
+    background-position: center center;
+    background-size: cover;
+}
+.addagua{
+    background-image: url(img/elemento-agua-novo.png) !important; 
+    background-position: center center;
+    background-size: cover;
+}
+.addterra{
+    background-image: url(img/elemento-terra-novo.png) !important;
+    background-position: center center;
+    background-size: cover;
+}
+.addrelampago{
+    background-image: url(img/elemnto-relampago-novo.png) !important;
+    background-position: center center;
+    background-size: cover;
+}
+.addvento{
+    background-image: url(img/elemnto-vento-novo.png) !important;
+    background-position: center center;
+    background-size: cover;
+}
