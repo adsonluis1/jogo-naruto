@@ -274,10 +274,6 @@ btn_proximo2.addEventListener('click' , ()=>{
         txt_final.innerHTML= `empate`
         txt_final2.innerHTML= `agua 🌊 empata com agua 🌊`
     }
-    // if(elemento_select2 == 'agua' && elemento_select == 'terra'){
-    //     txt_final.innerHTML= `${player1.value} venceu`
-    //     txt_final2.innerHTML= `agua 🌊 perde pra terra ⛰️`
-    // }
     if(elemento_select2 == 'terra' && elemento_select == 'agua'){
         txt_final.innerHTML= `${player2.value} ganhou`
         txt_final2.innerHTML= `terra ⛰️ ganha da agua 🌊`
@@ -290,18 +286,10 @@ btn_proximo2.addEventListener('click' , ()=>{
         txt_final.innerHTML= `empate`
         txt_final2.innerHTML= `terra ⛰️ empata com vento 💨`
     }
-    // if(elemento_select2 == 'terra' && elemento_select == 'relampago'){
-    //     txt_final.innerHTML= `${player1.value} venceu`
-    //     txt_final2.innerHTML= `terra ⛰️ perde pra relampago ⚡`
-    // }
     if(elemento_select2 == 'terra' && elemento_select == 'terra'){
         txt_final.innerHTML= `empate`
         txt_final2.innerHTML= `terra ⛰️  empata com terra ⛰️`
     }
-    // if(elemento_select2 == 'relampago' && elemento_select == 'vento'){
-    //     txt_final.innerHTML= `${player1.value} venceu`
-    //     txt_final2.innerHTML= `relampago ⚡ perde pro vento 💨`
-    // }
     if(elemento_select2 == 'relampago' && elemento_select == 'terra'){
         txt_final.innerHTML= `${player2.value} venceu`
         txt_final2.innerHTML= `relampago ⚡ vence da terra ⛰️`
@@ -322,10 +310,6 @@ btn_proximo2.addEventListener('click' , ()=>{
         txt_final.innerHTML= `${player2.value} venceu`
         txt_final2.innerHTML= `vento 💨 vence do relampago ⚡`
     }
-    // if(elemento_select2 == 'vento' && elemento_select == 'fogo'){
-    //     txt_final.innerHTML= `${player1.value} venceu`
-    //     txt_final2.innerHTML= `vento 💨 perde pro fogo 🔥`
-    // }
     if(elemento_select2 == 'vento' && elemento_select == 'agua'){
         txt_final.innerHTML= `empate`
         txt_final2.innerHTML= `vento 💨 empata com a agua 🌊`
@@ -339,7 +323,3 @@ btn_proximo2.addEventListener('click' , ()=>{
         txt_final2.innerHTML= `vento 💨 empata com vento 💨`
     }
 })
-
-
-
-
