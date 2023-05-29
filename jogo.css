@@ -5,18 +5,25 @@ img{
     margin: auto;
     display: none;
 }
+html{
+    width: 100vw;
+    height: 100vh;
+}
 body{
-    width: 90vw;
-    height: 95vh;
+    width: 100vw;
+    height: 100vh;
     background-image: url(img/vila-da-folha.webp);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
 }
 main{
-    margin-top: 30px;
-    margin-left: 5px;
-    margin-right: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50% , -50%);
+    width: 90%;
 }
 section{
     background-color: rgba(255, 166, 0, 0.308);
@@ -26,7 +33,6 @@ section{
     justify-content: center;
     align-items: center;
 }
-
 #btn_play{
     display: flex;
     align-items: center;
@@ -64,19 +70,31 @@ section{
 }
 #secundaria{
     display: none;
-    background-color: transparent;
     margin-top: -50px;
-    background-color: antiquewhite;
+    background-color: rgba(255, 166, 0, 0.308);
     height: 80vh;
     padding: 20px;
 }
 #terceiro{
     display: none;
-    background-color: transparent;
     margin-top: -50px;
-    background-color: antiquewhite;
+    background-color: rgba(255, 166, 0, 0.308);
     height: 80vh;
     padding: 30px;
+}
+#resultado{
+    display: none;
+    margin-top: -50px;
+    background-color: rgba(255, 166, 0, 0.308);
+    height: 80vh;
+    padding: 30px;
+}
+#resultado img{
+    display: block;
+}
+h2{
+    color: white;
+    text-align: center;
 }
 #tela_poder , #tela_poder1{
     width: 200px;
